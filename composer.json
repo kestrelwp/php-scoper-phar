@@ -1,0 +1,11 @@
+{
+    "name": "kestrelwp/php-scoper-phar",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2"
+    },
+    "bin": [
+        "bin/php-scoper.phar"
+    ]
+}

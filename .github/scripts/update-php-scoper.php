@@ -47,9 +47,11 @@ if (empty($currentVersion)) {
 	$currentVersion = '0.0.0'; // Default version if no tags are present
 }
 
+echo "Current version: $currentVersion" . PHP_EOL;
+echo "Latest version: $newVersion" . PHP_EOL;
+
 if (version_compare($newVersion, $currentVersion, '>')) {
-	echo "Current version: $currentVersion" . PHP_EOL;
-	echo "New version:     $newVersion" . PHP_EOL;
+	echo "Updating PHP Scoper to version: $newVersion" . PHP_EOL;
 
 	// Update composer.json
 	updateComposerJson($newPhpVersion);

@@ -1,5 +1,5 @@
 {
-    "name": "kestrelwp/php-scoper-phar",
+    "name": "kestrelcommerce/php-scoper-phar",
     "type": "library",
     "license": "MIT",
     "require": {
